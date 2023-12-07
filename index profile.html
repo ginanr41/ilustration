@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+
+    <!--- favicon -->
+    <link
+      rel="shortcut icon"
+      href="img/art.jpg"
+      type="image/x-icon"
+    />
+
+    <!--- custom css link -->
+    <link rel="stylesheet" href="styleprofile.css"/>
+
+    <!--- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--- #MAIN -->
+
+    <main>
+      <!--- #SIDEBAR -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./img/profile.jpg"
+              alt="Gina Nur Safa"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Dini Kayla Putri">Gina Nur Safa</h1>
+
+            <p class="title">Pelajar</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >nursafagina@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+62 896-3780-8106</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Jakarta, Indonesia</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--- #main-content -->
+
+      <div class="main-content">
+        <!--- #NAVBAR-->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--- #ABOUT -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hallo, saya adalah seorang ilustrator yang mampu membuat banyak style gambar dimulai dari, chibi,vexel art atupun simple art.
+              Saya masih berusia 17 tahun bersekolah di SMKN 50 Jakarta dan memiliki cukup pengalaman di PT Urus Izin Indonesia selama 6 bulan
+              sebagai graphic designer melakukan praktik kerja lapangan
+            </p>
+
+            <p>
+              Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan lebih lanjut, 
+              jangan ragu untuk menghubungi saya melalui alamat email atau melalui media sosial saya. 
+              Bersama saya, setiap proyek menjadi peluang untuk menciptakan keindahan visual yang tak terlupakan.
+            </p>
+          </section>
+
+          <!--- service -->
+
+          <section class="service">
+            <h3 class="h3 service-title">My Art Work</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="img/artwork2.png"
+                    alt="design icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Request Customers</h4>
+
+                  <p class="service-item-text">
+                    Mampu menggambar sesuai keinginan klien, dengan acuan do/dont
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="img/artwork1.png"
+                    alt="camera icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Trendy</h4>
+
+                  <p class="service-item-text">
+                    Ilustrasi trendy dan modern
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--- custom js link -->
+    <script src="profil main.js"></script>
+
+    <!--- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
